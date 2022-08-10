@@ -7,20 +7,18 @@ By default, Maven will download jar packages from Maven central to .m2/repositor
 The structure of one Maven/Gradle project is as bellow:
 
 project-name
-│   pom.xml
-│   README.md
-│
-├───src
-│   ├───main
-│   │   └───java
-│   │       └───package_name
-│   │               Source1.java
-│   │               Source2.java
-│   │
-│   └───test
-│       └───java
-│           └───package_name
-│                   Test1.java
+    pom.xml
+    README.md
+    src
+        main
+            java
+                package_name
+                    Source1.java
+                    Source2.java
+        test
+            java
+                package_name
+                    Test1.java
                     Test2.java
 
 All project dependencies and task are specified in pom.xml file. Basically, it should includes:
